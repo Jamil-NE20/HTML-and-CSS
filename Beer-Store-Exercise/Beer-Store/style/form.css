@@ -1,0 +1,43 @@
+form {
+    width: 50%;
+    margin: 0px auto;
+}
+input, select {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #FE9E00;
+
+}
+input [type = number], input [type = "date"], textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #FE9E00;
+}
+
+textarea{
+    resize:  none;
+}
+
+input[type=submit] {
+    margin-bottom: 20px;
+    width:80%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #FE9E00;
+    background-color: #FEAE00;
+    color: aliceblue;
+    font-size:15px;
+    cursor:pointer;
+    }
+
+input [type = submit]:hover {
+    background-color: #FE7300;
+}
